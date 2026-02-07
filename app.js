@@ -1,7 +1,7 @@
-// temp for test
-localStorage.removeItem("START_TIME");
-localStorage.removeItem("currentIndex");
-localStorage.removeItem("messageRevealed");
+// temp for test, need to uncomment, run and then recomment before deploying
+//localStorage.removeItem("START_TIME");
+//localStorage.removeItem("currentIndex");
+//localStorage.removeItem("messageRevealed");
 
 import MESSAGES from "./messages.js";
 
