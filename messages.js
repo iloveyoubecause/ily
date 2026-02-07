@@ -1,6 +1,8 @@
 // messages.js
 const MESSAGES = [
     "I love you because you make boring days fun together",
+    "I love you because you inspire me to be the best I can be",
+    "I love you because you know when something is wrong even if I deny it",
     "I love you because you continue to make us better",
     "I love you because you play fun games with me",
     "I love you because you take good care of me",
@@ -264,7 +266,6 @@ const MESSAGES = [
     "I love you because you pray for me",
     "I love you because I am probably thinking about you right now",
     "I love you because you remember my favorite things",
-    "I love you because you inspire me to be the best I can be",
     "I love you because you fit in perfectly with my family",
     "I love you because I could look at you forever",
     "I love you because we are comfortable with each other",
@@ -361,7 +362,6 @@ const MESSAGES = [
     "I love you because you are the salt to my pepper",
     "I love you because you are willing to try",
     "I love you because laying in bed together is calming",
-    "I love you because you know when something is wrong even if I deny it",
     "I love you because your style of clothing is nice",
     "I love you because you are entertaining",
     "I love you because you have strong faith"
