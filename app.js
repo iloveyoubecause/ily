@@ -1,7 +1,7 @@
 // temp for test, need to uncomment, run and then recomment before deploying
-//localStorage.removeItem("START_TIME");
-//localStorage.removeItem("currentIndex");
-//localStorage.removeItem("messageRevealed");
+localStorage.removeItem("START_TIME");
+localStorage.removeItem("currentIndex");
+localStorage.removeItem("messageRevealed");
 
 import MESSAGES from "./messages.js";
 
@@ -31,7 +31,7 @@ if (localStorage.getItem("START_TIME")) {
   START_TIME = new Date(parseInt(localStorage.getItem("START_TIME")));
 } else {
   // REAL SITE START TIME (Feb 14 2026 midnight EST)
-  START_TIME = new Date("2026-02-08T00:00:00-05:00");
+  START_TIME = new Date("2026-02-14T00:00:00-05:00");
   // TEST MODE: 10 seconds from now
   // START_TIME = new Date(Date.now() + 10000);
   // TEST MODE: actual start time, no reset
@@ -61,8 +61,7 @@ const SPECIAL_DATES = {
   "10-31": "Happy Halloween!",
   "11-26": "Happy Thanksgiving!",
   "12-22": "Happy 3 year anniversary! Best 3 years ever!",
-  "12-25": "Merry Christmas!",
-  "2-9": "testing the feb6 special note work"
+  "12-25": "Merry Christmas!"
 };
 
 function updateSpecialMessage() {
